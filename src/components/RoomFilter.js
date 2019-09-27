@@ -119,7 +119,7 @@ export default function RoomFilter({ rooms }) {
         </div>
         {/* end size */}
 
-        {/* extras  breakfast*/}
+        {/* extras  */}
         <div className="form-group">
           <div className="single-extra">
             <input
@@ -131,11 +131,7 @@ export default function RoomFilter({ rooms }) {
             />
             <label htmlFor="breakfast">breakfast</label>
           </div>
-        </div>
-        {/* end extras breakfast */}
 
-        {/* extras */}
-        <div className="form-group">
           <div className="single-extra">
             <input
               type="checkbox"
@@ -147,7 +143,7 @@ export default function RoomFilter({ rooms }) {
             <label htmlFor="pets">pets</label>
           </div>
         </div>
-        {/* end extras */}
+        {/* end extras  */}
       </form>
     </section>
   );
